@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>hytale-docs-test-mods</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>Hytale Documentation Example Mods</name>
+    <description>Example mods demonstrating Hytale modding API usage</description>
+
+    <modules>
+        <module>command-example</module>
+        <module>event-example</module>
+        <module>world-example</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <hytale.version>2026.01.15</hytale.version>
+    </properties>
+
+    <dependencies>
+        <!-- Hytale Server API - Provided by server at runtime -->
+        <dependency>
+            <groupId>com.hypixel.hytale</groupId>
+            <artifactId>hytale-server</artifactId>
+            <version>${hytale.version}</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <source>21</source>
+                    <target>21</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,8 @@
+{
+  "Group": "DocsExamples",
+  "Name": "CommandExample",
+  "Version": "1.0.0",
+  "Description": "Demonstrates command registration and usage in Hytale mods",
+  "Authors": ["Hytale Docs"],
+  "MainClass": "com.example.commands.CommandExamplePlugin"
+}

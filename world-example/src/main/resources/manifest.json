@@ -1,0 +1,8 @@
+{
+  "Group": "DocsExamples",
+  "Name": "WorldExample",
+  "Version": "1.0.0",
+  "Description": "Demonstrates world and block manipulation in Hytale mods",
+  "Authors": ["Hytale Docs"],
+  "MainClass": "com.example.world.WorldExamplePlugin"
+}
