@@ -1,5 +1,14 @@
 # Hytale Documentation Example Mods
 
+> **⚠️ DISCLAIMER**
+>
+> These are **unofficial example mods** created for educational purposes based on documented and reverse-engineered Hytale server APIs. They are **not affiliated with or endorsed by Hypixel Studios**.
+>
+> - These examples demonstrate modding patterns and API usage based on current documentation
+> - The Hytale API is subject to change and these examples may require updates for compatibility
+> - These mods are intended as learning resources and may not be production-ready
+> - Always refer to official Hypixel Studios documentation and resources when available
+
 Example mods demonstrating the Hytale modding API. These mods accompany the [Hytale API Documentation](https://hytale-docs.dev) and showcase common modding patterns and best practices.
 
 ## 📚 Mods Included
