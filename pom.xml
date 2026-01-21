@@ -27,6 +27,24 @@
 
     <dependencies>
         <!-- Hytale Server API - Provided by server at runtime -->
+        <!-- To build these mods, you need the Hytale server JAR -->
+        <!-- Option 1: Install to local Maven repository -->
+        <!--   mvn install:install-file -Dfile=path/to/hytale-server.jar \
+                   -DgroupId=com.hypixel.hytale -DartifactId=hytale-server \
+                   -Dversion=2026.01.15 -Dpackaging=jar -->
+        <!-- Option 2: Use system scope (uncomment and set path) -->
+        <!--
+        <dependency>
+            <groupId>com.hypixel.hytale</groupId>
+            <artifactId>hytale-server</artifactId>
+            <version>${hytale.version}</version>
+            <scope>system</scope>
+            <systemPath>${env.HYTALE_SERVER_JAR}</systemPath>
+        </dependency>
+        -->
+
+        <!-- Hytale server dependency - install JAR to local Maven repo first -->
+        <!-- See README for installation instructions -->
         <dependency>
             <groupId>com.hypixel.hytale</groupId>
             <artifactId>hytale-server</artifactId>

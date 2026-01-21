@@ -37,6 +37,31 @@ Demonstrates world and block manipulation.
 - Maven 3.6 or higher
 - Hytale (version 2026.01.15 or compatible)
 
+### Before Building
+
+These mods require the Hytale server JAR as a compile-time dependency. You need to install it to your local Maven repository first:
+
+```bash
+mvn install:install-file \
+  -Dfile="C:/Users/[username]/AppData/Roaming/Hytale/install/release/package/game/latest/Server/HytaleServer.jar" \
+  -DgroupId=com.hypixel.hytale \
+  -DartifactId=hytale-server \
+  -Dversion=2026.01.15 \
+  -Dpackaging=jar
+```
+
+**Windows (PowerShell):**
+```powershell
+mvn install:install-file `
+  -Dfile="$env:APPDATA\Hytale\install\release\package\game\latest\Server\HytaleServer.jar" `
+  -DgroupId=com.hypixel.hytale `
+  -DartifactId=hytale-server `
+  -Dversion=2026.01.15 `
+  -Dpackaging=jar
+```
+
+This only needs to be done once. The JAR will be cached in your local Maven repository (`~/.m2/repository/`).
+
 ### Building All Mods
 
 From the repository root:
