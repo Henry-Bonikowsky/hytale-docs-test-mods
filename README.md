@@ -2,12 +2,12 @@
 
 > **⚠️ DISCLAIMER**
 >
-> These are **unofficial example mods** created for educational purposes based on documented and reverse-engineered Hytale server APIs. They are **not affiliated with or endorsed by Hypixel Studios**.
+> These example mods were **generated using Claude Code** (AI-assisted development) based on documented Hytale APIs. While the code follows standard modding patterns and best practices, it has not been tested in a live Hytale environment.
 >
-> - These examples demonstrate modding patterns and API usage based on current documentation
-> - The Hytale API is subject to change and these examples may require updates for compatibility
-> - These mods are intended as learning resources and may not be production-ready
-> - Always refer to official Hypixel Studios documentation and resources when available
+> - Code may require adjustments for actual Hytale server compatibility
+> - Use these examples as learning references, not production-ready implementations
+> - Always test thoroughly before deploying to any server
+> - These are **unofficial examples** not affiliated with or endorsed by Hypixel Studios
 
 Example mods demonstrating the Hytale modding API. These mods accompany the [Hytale API Documentation](https://hytale-docs.dev) and showcase common modding patterns and best practices.
 
